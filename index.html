@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>ICFAI UNIVERSITY</h1>
+        <div class="nav">
+            <span>
+                <a href="#" class="nav-link">HOME</a>
+                <a href="#" class="nav-link">ABOUT US</a>
+                <a href="#" class="nav-link">CATEFORIES</a>
+                <a href="#" class="nav-link">REQUEST</a>
+            </span>
+            <span class="search"><input type="search" placeholder="which book you want" id="searchtxt"><img
+                    src="images/search-icon.png" alt="searchicon" id="searchIcon"></span>
+        </div>
+    </header>
+    <main>
+        <div class="inputs">
+            <h2>book name</h2>
+            
+                <input type="text" id="bookname" placeholder="ex-web designing" class="student-info"><br>
+                <span id="bookinput"></span>
+                <h2>your name</h2>
+                <input type="text" id="studentname" placeholder="ex-Akshit" class="student-info"><br>
+                <span id="nameinput"></span>
+                <h2>course</h2>
+                <input type="text" id="coursename" placeholder="ex-BCA" class="student-info"><br>
+                <span id="courseinput"></span>
+                <h2>year</h2>
+                <input type="text" id="yearname" placeholder="ex-2nd" class="student-info"><br>
+                <span id="yearinput"></span>
+                <button type="submit" id="issue">issue</button>
+        </div>
+        <div>
+            <h2>your books-</h2>
+            <table class="table-container" id="display">
+                <thead>
+
+                    <tr>
+                        <th>book name</th>
+                        <th>student name</th>
+                        <th>course</th>
+                        <th>year</th>
+                        <th>issue date</th>
+                        <th>actions</th>
+                    </tr>
+                </thead>
+                <tbody  id="container"></tbody>
+            </table>
+        </div>
+    </main>
+    <script src="script2.js"></script>
+</body>
+
+</html>
