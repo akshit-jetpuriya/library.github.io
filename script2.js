@@ -104,3 +104,4 @@ function returnbut(index) {
     show();
 }
 
+//this code maded by askhit jetpuriya with pure html,css and javascript no frameworks used there
